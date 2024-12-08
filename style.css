@@ -1,0 +1,19 @@
+.box {
+    
+    border-bottom: solid 2px rgb(30, 136, 9) ;
+    background-color: rgb(142, 247, 22);
+    margin: 20px;
+    padding: 10px;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.Moo {
+    border-bottom: 2px solid red;
+}

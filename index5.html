@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="container1">
+        <ul>
+            <li>orange</li>
+            <li>apple</li>
+            <li>pear</li>
+            <li>mango</li>
+        </ul>
+        <div id="x"></div>
+    </div>
+
+    <script>
+        
+        const ul_el = document.getElementById("container1");
+        const new_el = document.createElement("div");
+        new_el.innerText ="CE Nextgen";
+        console.log(new_el);
+
+        // for (const item of arr){
+        //     const li_el = document.createElement("li");
+        //     li_el.innerText = item;
+        //     ul_el.appendChil(li_el);
+        // }
+
+        ul_el.appendChild(new_el);
+            
+        const ul_el2 = document.createElement("ul")
+        ul_el.appendChild(ul_el2)
+
+        const sub = ["eng", "thai", "sci", "math"];
+
+        for (const item of sub){
+             const li_el = document.createElement("li");
+             li_el.innerText = item;
+             ul_el.appendChild(li_el);
+         }
+            
+         
+        
+    </script>
+
+</body>
+
+</html>

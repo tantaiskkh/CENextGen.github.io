@@ -1,0 +1,28 @@
+h2 {
+    position: sticky;
+    border: solid 2px black;
+    background-color: black;
+    color: white;
+    top: 0;
+    left: 0;
+}
+
+
+
+.flex-container {
+    display:flex ;
+    flex-direction: row;
+}
+.siu {
+    background-color: orange;
+    width: 50%;
+    height: 100vh;
+}
+.siu2 {
+    background-color: rgb(212, 94, 203);
+    width: 50%;
+    height: 100vh;
+}
+* {
+    margin: 0;
+}
